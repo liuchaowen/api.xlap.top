@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>站点迁移通知 - API服务平台</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: 'PingFang SC', 'Microsoft YaHei', sans-serif;
+            background-color: #f5f7fa;
+            color: #333;
+            line-height: 1.6;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            min-height: 100vh;
+            padding: 20px;
+        }
+
+        .container {
+            max-width: 800px;
+            background-color: #fff;
+            border-radius: 10px;
+            box-shadow: 0 4px 20px rgba(0, 0, 0, 0.08);
+            padding: 40px;
+            text-align: center;
+        }
+
+        .logo {
+            margin-bottom: 30px;
+        }
+
+        h1 {
+            font-size: 28px;
+            color: #2c3e50;
+            margin-bottom: 20px;
+            font-weight: 600;
+        }
+
+        .notice {
+            font-size: 18px;
+            margin-bottom: 30px;
+        }
+
+        .domain {
+            background-color: #f1f5f9;
+            border-radius: 6px;
+            padding: 15px;
+            margin: 15px 0;
+            font-size: 20px;
+            font-weight: 500;
+        }
+
+        .old-domain {
+            color: #e74c3c;
+            text-decoration: line-through;
+        }
+
+        .new-domain {
+            color: #2ecc71;
+        }
+
+        .arrow {
+            font-size: 24px;
+            margin: 10px 0;
+            color: #7f8c8d;
+        }
+
+        .message {
+            margin: 30px 0;
+            font-size: 16px;
+            color: #555;
+        }
+
+        .action {
+            margin-top: 30px;
+        }
+
+        .button {
+            display: inline-block;
+            background-color: #3498db;
+            color: white;
+            padding: 12px 30px;
+            border-radius: 30px;
+            text-decoration: none;
+            font-size: 16px;
+            font-weight: 500;
+            transition: background-color 0.3s;
+        }
+
+        .button:hover {
+            background-color: #2980b9;
+        }
+
+        .footer {
+            margin-top: 40px;
+            font-size: 14px;
+            color: #7f8c8d;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="container">
+        <div class="logo">
+            <svg width="80" height="80" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <path
+                    d="M12 22C17.5228 22 22 17.5228 22 12C22 6.47715 17.5228 2 12 2C6.47715 2 2 6.47715 2 12C2 17.5228 6.47715 22 12 22Z"
+                    stroke="#3498db" stroke-width="2" />
+                <path d="M15 9L9 15M9 9L15 15" stroke="#3498db" stroke-width="2" stroke-linecap="round" />
+            </svg>
+        </div>
+        <h1>站点迁移通知</h1>
+        <div class="notice">尊敬的用户，我们的API服务平台已完成迁移</div>
+
+        <div class="domain old-domain">原站点：api.xlap.top</div>
+        <div class="arrow">↓</div>
+        <div class="domain new-domain">新站点：api.linkapi.org</div>
+
+        <div class="message">
+            <p>原有的数据与余额不变，请更换新域名，访问新域名平台。</p>
+            <p>如有任何问题，请联系我们的客服团队。</p>
+        </div>
+
+        <div class="action">
+            <a href="https://api.linkapi.org/register?aff=1621b225649" class="button">立即访问新站点</a>
+        </div>
+
+        <div class="footer">
+            <p>感谢您的理解与支持！</p>
+        </div>
+    </div>
+</body>
+
+</html>
